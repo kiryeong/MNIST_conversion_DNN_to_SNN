@@ -65,11 +65,4 @@ model2 = keras.models.Sequential([
 
 activations = model2.predict(x_test)
 
- 
-'''   
-get_1st_layer_output = K.function(inputs = model.layers[0].input, outputs = model.layers[1].output)
-print(get_1st_layer_output)
-'''
-
-
 

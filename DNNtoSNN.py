@@ -2,10 +2,8 @@
 """
 Created on Mon Jul  6 23:49:18 2020
 
-@author: SAMSUNG
+@author: Kiryeong Nam
 """
-
-
 
 from brian2 import *
 import numpy as np

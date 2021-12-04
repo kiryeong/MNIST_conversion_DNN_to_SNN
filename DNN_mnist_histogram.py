@@ -2,9 +2,8 @@
 """
 Created on Thu Jun 18 12:35:53 2020
 
-@author: user
+@author: Kiryeong Nam
 """
-
 
 # 딥러닝 관련 라이브러리 불러오기
 import tensorflow as tf

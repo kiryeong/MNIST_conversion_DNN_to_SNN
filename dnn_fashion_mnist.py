@@ -44,6 +44,7 @@ model = keras.models.Sequential([
     keras.layers.Dense(N3, activation = 'softmax', use_bias=False) # 확률을 출력해준다
 ])
 
+
 # 모델 컴파일 : 최적화 함수, 손실 함수 설정 + 평가 지표 설정 + 가중치 초기화
 model.compile(optimizer = 'adam', loss = 'sparse_categorical_crossentropy', metrics = ['accuracy'])
 model.summary()
